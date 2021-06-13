@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Book {
     public String title;
+    public String author;
     public int pageCount;
     public static double price;
     private boolean isOpened;
@@ -59,5 +60,12 @@ public class Book {
                 ", pageCount=" + pageCount +
                 ", isOpened=" + isOpened +
                 '}';
+    }
+
+    public Book(String title, int pageCount, String author){
+        this.title = title;
+        this.author = author;
+        this.pageCount = pageCount;
+        this.isOpened = false;
     }
 }
