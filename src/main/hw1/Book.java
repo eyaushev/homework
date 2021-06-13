@@ -3,8 +3,8 @@ package main.hw1;
 public class Book {
     public String title;
     public int pageCount;
-    public double price;
-    public boolean isOpened;
+    public static double price;
+    private boolean isOpened;
 
     public void open(){
         if (isOpened)
@@ -13,7 +13,6 @@ public class Book {
             isOpened = true;
             System.out.println("Вы открыли книгу");
         }
-
     }
 
     public void close(){
@@ -24,4 +23,18 @@ public class Book {
             System.out.println("Вы закрыли книгу");
         }
     }
+
+    public static void setDiscount(int percent){
+        if (percent > 100 || percent < 0)
+            System.out.println("Недопустимый размер скидки");
+        else {
+            price = price - (price * percent / 100);
+            System.out.println("Скидка применена");
+        }
+    }
+
+    public void printInfo(){
+        System.out.println("Название: " + title + ", кол-во страниц: " + pageCount + ", цена: " + price + "руб.");
+    }
+
 }
