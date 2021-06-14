@@ -7,7 +7,7 @@ public class Animals {
     public final int pawsCount = 4;
 
     public void run(){
-        System.out.println("Бежим!");
+        System.out.println(name + " бежит!");
     }
 
     Animals(String name, String color, int age){

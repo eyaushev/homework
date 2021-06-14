@@ -6,7 +6,7 @@ public class Dog extends Animals {
         System.out.println("Гав!");
     }
 
-    Dog(String name, String color, int age) {
+    public Dog(String name, String color, int age) {
         super(name, color, age);
     }
 }
