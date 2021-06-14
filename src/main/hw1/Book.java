@@ -40,12 +40,16 @@ public class Book {
         System.out.println("Название: " + title + ", кол-во страниц: " + pageCount + ", цена: " + price + "руб.");
     }
 
-
+    @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Book book = (Book) o;
-        return pageCount == book.pageCount && isOpened == book.isOpened && title.equals(book.title);
+        if (getClass() == o.getClass()) {
+            System.out.println("Зачем сравнивать один и тот же класс?");
+            return true;
+        }
+        else {
+            System.out.println("Это разные классы, поверь");
+            return false;
+        }
     }
 
     public int hashCode() {

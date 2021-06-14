@@ -1,6 +1,8 @@
 package test.hw1;
 
 import main.hw1.Book;
+import main.hw1.extra.Animals;
+import main.hw1.extra.Cat;
 
 public class BookTest {
     public static void main(String[] args) {
@@ -18,9 +20,11 @@ public class BookTest {
         System.out.println(Book.class.toString());
 
         System.out.println("Сравнения классов:");
-        System.out.println(book1.equals(book2));
-        System.out.println(book2.equals(book3));
-        System.out.println(book3.equals(book4));
+        System.out.println(book1.equals(book3));
+
+        Animals cat = new Cat("Гав", "рыжий", 2);
+
+        System.out.println(book2.equals(cat));
 
         System.out.println("HashCode класса:");
         System.out.println(Book.class.hashCode());
