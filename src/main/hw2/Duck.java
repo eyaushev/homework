@@ -15,4 +15,9 @@ public class Duck extends Bird implements IBird {
     public String toString() {
         return "Утка";
     }
+
+    @Override
+    public String canSwim() {
+        return super.canSwim() + ", но + " + this.getName() + " - водоплавающая птица";
+    }
 }

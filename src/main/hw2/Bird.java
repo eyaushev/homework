@@ -5,6 +5,10 @@ public abstract class Bird {
     private String family;
     private String order;
 
+    public String canSwim(){
+        return "Птицы обычно не плавают";
+    }
+
     public String getName() {
         return name;
     }
