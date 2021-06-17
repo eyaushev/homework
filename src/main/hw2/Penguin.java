@@ -2,27 +2,39 @@ package main.hw2;
 
 public class Penguin extends Bird implements IBird {
     @Override
-    public void fly() {
-        System.out.println("Пингвины не летают!");
+    public String canFly() {
+        return "Пингвины не летают!";
     }
 
     @Override
-    public void chirp() {
-        System.out.println("чик-чирик");
+    public String chirp() {
+        return "чик-чирик";
     }
 
-    public void chirp(String value) {
-        System.out.println(value);
+    public String chirp(String value) {
+        return value;
     }
-
 
     @Override
     public String toString() {
-        return "Пингвин";
+        return "Penguin{" +
+                "name='" + super.getName() + '\'' +
+                ", family='" + super.getFamily() + '\'' +
+                ", order='" + super.getOrder() + '\'' +
+                ", chirp='" + chirp() + '\'' +
+                ", canFly='" + canFly() + '\'' +
+                ", canSwim='" + canSwim() + '\'' +
+                '}';
     }
 
     @Override
     public String canSwim() {
         return super.canSwim() + ", но " + this.getName() + " - водоплавающая птица";
+    }
+
+    public Penguin(){
+        super.setName("Пингвин");
+        super.setFamily("Пингвиновые");
+        super.setOrder("Пингвинообразные");
     }
 }

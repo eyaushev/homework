@@ -4,6 +4,8 @@ public abstract class Bird {
     private String name;
     private String family;
     private String order;
+    public abstract String chirp();
+    public abstract String chirp(String value);
 
     public String canSwim(){
         return "Птицы обычно не плавают";
@@ -32,4 +34,5 @@ public abstract class Bird {
     public void setOrder(String order) {
         this.order = order;
     }
+
 }
