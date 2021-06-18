@@ -1,12 +1,10 @@
 package test.hw3;
 
+import main.hw1.extra.Animals;
 import main.hw1.extra.Cat;
 import main.hw1.extra.Dog;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class CollectionTest {
     public static void main(String[] args) {
@@ -21,8 +19,11 @@ public class CollectionTest {
         dogs.add(new Dog("Шарик", "черный", 4));
         dogs.add(new Dog("Шарик", "черный", 4));
 
-        Set<Cat> catSet = new HashSet<>(cats);
-        Set<Dog> dogSet = new HashSet<>(dogs);
+        Set<Animals> catSet = new HashSet<>(cats);
+        Set<Animals> dogSet = new HashSet<>(dogs);
 
+        Map<String, Set<Animals>> animalMap = new HashMap<>();
+        animalMap.put("Кошка", catSet);
+        animalMap.put("Собака", dogSet);
     }
 }
