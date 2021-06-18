@@ -4,7 +4,9 @@ import main.hw1.extra.Cat;
 import main.hw1.extra.Dog;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class CollectionTest {
     public static void main(String[] args) {
@@ -19,7 +21,8 @@ public class CollectionTest {
         dogs.add(new Dog("Шарик", "черный", 4));
         dogs.add(new Dog("Шарик", "черный", 4));
 
-        System.out.println(cats.get(0).name);
-        System.out.println(dogs.get(0).name);
+        Set<Cat> catSet = new HashSet<>(cats);
+        Set<Dog> dogSet = new HashSet<>(dogs);
+
     }
 }
