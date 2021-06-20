@@ -1,13 +1,13 @@
 package test.hw3;
 
-import main.hw3.Bird;
+import main.hw3.BirdImpl;
 import main.hw3.Duck;
 import main.hw3.Penguin;
 
 public class BirdTest {
     public static void main(String[] args) {
-        Bird duck = new Duck();
-        Bird penguin = new Penguin();
+        BirdImpl duck = new Duck();
+        BirdImpl penguin = new Penguin();
 
         System.out.println(duck.chirp());
         System.out.println(penguin.chirp("гав-гав"));

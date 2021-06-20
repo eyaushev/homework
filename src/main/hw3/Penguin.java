@@ -1,6 +1,6 @@
 package main.hw3;
 
-public class Penguin extends Bird implements IBird {
+public class Penguin extends BirdImpl implements Bird {
     @Override
     public String canFly() {
         return "Пингвины не летают!";
@@ -11,6 +11,7 @@ public class Penguin extends Bird implements IBird {
         return "чик-чирик";
     }
 
+    @Override
     public String chirp(String value) {
         return value;
     }

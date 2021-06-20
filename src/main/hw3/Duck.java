@@ -1,6 +1,6 @@
 package main.hw3;
 
-public class Duck extends Bird implements IBird {
+public class Duck extends BirdImpl implements Bird {
     @Override
     public String canFly() {
         return this.getName() + " полетела!";
