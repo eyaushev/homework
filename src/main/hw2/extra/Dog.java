@@ -1,4 +1,4 @@
-package main.hw1.extra;
+package main.hw2.extra;
 
 public class Dog extends Animals {
 

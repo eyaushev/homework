@@ -1,8 +1,8 @@
-package test.hw1;
+package test.hw2;
 
-import main.hw1.Book;
-import main.hw1.extra.Animals;
-import main.hw1.extra.Cat;
+import main.hw2.Book;
+import main.hw2.extra.Animals;
+import main.hw2.extra.Cat;
 
 public class BookTest {
     public static void main(String[] args) {

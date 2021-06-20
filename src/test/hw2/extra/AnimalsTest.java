@@ -1,8 +1,8 @@
-package test.hw1.extra;
+package test.hw2.extra;
 
-import main.hw1.extra.Animals;
-import main.hw1.extra.Cat;
-import main.hw1.extra.Dog;
+import main.hw2.extra.Animals;
+import main.hw2.extra.Cat;
+import main.hw2.extra.Dog;
 
 public class AnimalsTest {
     public static void main(String[] args) {

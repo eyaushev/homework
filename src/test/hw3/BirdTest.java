@@ -1,8 +1,8 @@
-package test.hw2;
+package test.hw3;
 
-import main.hw2.Bird;
-import main.hw2.Duck;
-import main.hw2.Penguin;
+import main.hw3.Bird;
+import main.hw3.Duck;
+import main.hw3.Penguin;
 
 public class BirdTest {
     public static void main(String[] args) {

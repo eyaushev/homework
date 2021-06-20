@@ -1,8 +1,8 @@
-package test.hw3;
+package test.hw4;
 
-import main.hw1.extra.Animals;
-import main.hw1.extra.Cat;
-import main.hw1.extra.Dog;
+import main.hw2.extra.Animals;
+import main.hw2.extra.Cat;
+import main.hw2.extra.Dog;
 
 import java.util.*;
 

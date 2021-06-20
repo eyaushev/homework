@@ -1,24 +1,23 @@
-package main.hw2;
+package main.hw3;
 
-public class Duck extends Bird implements IBird {
+public class Penguin extends Bird implements IBird {
     @Override
     public String canFly() {
-        return this.getName() + " полетела!";
+        return "Пингвины не летают!";
     }
 
     @Override
     public String chirp() {
-        return "кря-кря";
+        return "чик-чирик";
     }
 
-    @Override
     public String chirp(String value) {
         return value;
     }
 
     @Override
     public String toString() {
-        return "Duck{" +
+        return "Penguin{" +
                 "name='" + super.getName() + '\'' +
                 ", family='" + super.getFamily() + '\'' +
                 ", order='" + super.getOrder() + '\'' +
@@ -33,10 +32,9 @@ public class Duck extends Bird implements IBird {
         return super.canSwim() + ", но " + this.getName() + " - водоплавающая птица";
     }
 
-    public Duck(){
-        super.setName("Утка");
-        super.setFamily("Утиные");
-        super.setOrder("Гусеобразные");
+    public Penguin(){
+        super.setName("Пингвин");
+        super.setFamily("Пингвиновые");
+        super.setOrder("Пингвинообразные");
     }
 }
-   

@@ -1,4 +1,4 @@
-package main.hw2;
+package main.hw3;
 
 public abstract class Bird {
     private String name;

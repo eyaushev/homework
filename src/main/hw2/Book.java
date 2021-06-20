@@ -1,4 +1,4 @@
-package main.hw1;
+package main.hw2;
 
 import java.util.Objects;
 
