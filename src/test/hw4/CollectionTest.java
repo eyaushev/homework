@@ -13,10 +13,8 @@ public class CollectionTest {
 
         cats.add(new Cat("Барсик", "черный", 3));
         cats.add(new Cat("Гарфилд", "рыжий", 5));
-        cats.add(new Cat("Гарфилд", "рыжий", 5));
 
         dogs.add(new Dog("Тузик", "черный", 5));
-        dogs.add(new Dog("Шарик", "черный", 4));
         dogs.add(new Dog("Шарик", "черный", 4));
 
         Set<Animals> catSet = new HashSet<>(cats);
