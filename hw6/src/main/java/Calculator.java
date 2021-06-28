@@ -8,11 +8,11 @@ public class Calculator {
         return x - y;
     }
 
-    public double multiple(double x, double y){
+    public double multiply(double x, double y){
         return x * y;
     }
 
-    public double divise(double x, double y){
+    public double divide(double x, double y){
         return x/y;
     }
 }
