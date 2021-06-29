@@ -15,6 +15,36 @@ dependencies {
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.7.0'
 }
 
-test {
+tasks.withType(Test) {
     useJUnitPlatform()
+    failFast = true
+    testLogging {
+        exceptionFormat "full"
+        events "started", "skipped", "passed", "failed"
+        showStandardStreams true
+    }
+}
+
+tasks.register("testSum", Test){
+    useJUnitPlatform {
+        includeTags "sum"
+    }
+}
+
+tasks.register("testMinus", Test){
+    useJUnitPlatform {
+        includeTags "minus"
+    }
+}
+
+tasks.register("testMultiply", Test){
+    useJUnitPlatform {
+        includeTags "multiply"
+    }
+}
+
+tasks.register("testDivide", Test){
+    filter {
+        includeTestsMatching "*testDivide"
+    }
 }

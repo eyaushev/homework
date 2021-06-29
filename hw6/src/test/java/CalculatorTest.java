@@ -16,8 +16,8 @@ public class CalculatorTest {
     @Tag("sum")
     @DisplayName("Проверка суммирования")
     public void testSum(){
-        double result = calculator.sum(2,2);
-        Assertions.assertEquals(4, result);
+        double result = calculator.sum(1,2);
+        Assertions.assertEquals(3, result);
     }
 
     @RepeatedTest(value = 10, name = "{displayName} {currentRepetition}/{totalRepetitions}")
