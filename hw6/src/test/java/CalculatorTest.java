@@ -31,7 +31,7 @@ public class CalculatorTest {
     @Tag("multiply")
     @DisplayName("Проверка умножения")
     @ParameterizedTest(name = "{displayName} на {arguments}")
-    @ValueSource(doubles = {0,1,2,3})
+    @ValueSource(doubles = {0,1,2,3, -1, -2, -3})
     public void testMultiply(double argument){
         double result = calculator.multiply(argument,argument);
         Assertions.assertEquals(argument * argument, result);
@@ -43,6 +43,6 @@ public class CalculatorTest {
     @ValueSource(doubles = {0,1,2,3})
     public void testDivide(double argument){
         double result = calculator.divide(argument,argument);
-        Assertions.assertEquals(argument/argument, result);
+        Assertions.assertEquals(argument / argument, result);
     }
 }

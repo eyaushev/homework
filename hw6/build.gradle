@@ -9,15 +9,46 @@ repositories {
     mavenCentral()
 }
 
+configurations {
+    antJUnit
+}
+
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.7.0'
+    antJUnit 'org.apache.ant:ant-junit:1.9.7'
+}
+
+test {
+    reports.html.required = false
+}
+
+testResultsDirName = "$buildDir/test-results/allTests"
+
+tasks.register('testReport') {
+    ext {
+        resultsDir = file("$buildDir/test-results/allTests")
+        targetDir = file("$buildDir/test-results/merged")
+    }
+
+    doLast {
+        ant.taskdef(name: 'junitreport',
+                classname: 'org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator',
+                classpath: configurations.antJUnit.asPath)
+
+        ant.junitreport(todir: resultsDir) {
+            fileset(dir: resultsDir, includes: '**/TEST-*.xml')
+            report(todir: targetDir, format: 'frames')
+        }
+    }
 }
 
 tasks.withType(Test) {
     useJUnitPlatform()
+
     failFast = true
+
     testLogging {
         exceptionFormat "full"
         events "started", "skipped", "passed", "failed"
