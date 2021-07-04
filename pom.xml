@@ -6,7 +6,11 @@
 
     <groupId>HW</groupId>
     <artifactId>homework</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>HW6</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>12</maven.compiler.source>

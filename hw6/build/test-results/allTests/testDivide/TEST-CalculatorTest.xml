@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Тестирование калькулятора" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-07-03T21:14:17" hostname="MacBook-Air-Eduard.local" time="0.064">
+  <properties/>
+  <testcase name="Проверка деления на 0.0" classname="CalculatorTest" time="0.046"/>
+  <testcase name="Проверка деления на 1.0" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка деления на 2.0" classname="CalculatorTest" time="0.002"/>
+  <testcase name="Проверка деления на 3.0" classname="CalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

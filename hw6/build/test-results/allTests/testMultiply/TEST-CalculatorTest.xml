@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Тестирование калькулятора" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-07-03T19:24:33" hostname="MacBook-Air-Eduard.local" time="0.086">
+  <properties/>
+  <testcase name="Проверка умножения на 0.0" classname="CalculatorTest" time="0.053"/>
+  <testcase name="Проверка умножения на 1.0" classname="CalculatorTest" time="0.002"/>
+  <testcase name="Проверка умножения на 2.0" classname="CalculatorTest" time="0.002"/>
+  <testcase name="Проверка умножения на 3.0" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка умножения на -1.0" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка умножения на -2.0" classname="CalculatorTest" time="0.004"/>
+  <testcase name="Проверка умножения на -3.0" classname="CalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

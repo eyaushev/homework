@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Тестирование калькулятора" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-07-03T19:24:26" hostname="MacBook-Air-Eduard.local" time="0.082">
+  <properties/>
+  <testcase name="Проверка вычитания 1/10" classname="CalculatorTest" time="0.042"/>
+  <testcase name="Проверка вычитания 2/10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка вычитания 3/10" classname="CalculatorTest" time="0.002"/>
+  <testcase name="Проверка вычитания 4/10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка вычитания 5/10" classname="CalculatorTest" time="0.002"/>
+  <testcase name="Проверка вычитания 6/10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка вычитания 7/10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка вычитания 8/10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка вычитания 9/10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="Проверка вычитания 10/10" classname="CalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
