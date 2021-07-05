@@ -2,10 +2,11 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+
 @DisplayName("Тестирование калькулятора")
 public class CalculatorTest {
 
-    Calculator calculator;
+     Calculator calculator;
 
     @BeforeEach
     public void setup(){
