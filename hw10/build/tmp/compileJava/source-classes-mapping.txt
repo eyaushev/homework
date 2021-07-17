@@ -1,0 +1,12 @@
+User.java
+ User
+Address.java
+ Address
+utils/Mapper.java
+ utils.Mapper
+Users.java
+ Users
+utils/XMLMapperImpl.java
+ utils.XMLMapperImpl
+utils/JSONMapperImpl.java
+ utils.JSONMapperImpl

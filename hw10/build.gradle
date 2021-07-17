@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group 'org.homework'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -13,7 +13,13 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
-    implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.12.4'
+    // https://mvnrepository.com/artifact/org.simpleframework/simple-xml
+    implementation group: 'org.simpleframework', name: 'simple-xml', version: '2.7.1'
+    // https://mvnrepository.com/artifact/com.squareup.moshi/moshi
+    implementation group: 'com.squareup.moshi', name: 'moshi', version: '1.12.0'
+
+
+
 }
 
 test {

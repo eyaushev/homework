@@ -1,0 +1,54 @@
+<users>
+   <user>
+      <name>Сидоров Сидор Сидорович</name>
+      <birthday>1953-12-31</birthday>
+      <registrationDate>2021-07-17</registrationDate>
+      <login>cOzW4r</login>
+      <password>v2aQ3nCq2g</password>
+      <homeAddress>
+         <city>Москва</city>
+         <street>Ленина</street>
+         <house>3</house>
+         <appartment>79</appartment>
+      </homeAddress>
+   </user>
+   <user>
+      <name>Петров Петр Петрович</name>
+      <birthday>1996-05-30</birthday>
+      <registrationDate>2021-07-17</registrationDate>
+      <login>XaMriu</login>
+      <password>7AP5DWsHUI</password>
+      <homeAddress>
+         <city>Санкт-Петербург</city>
+         <street>Чистопольская</street>
+         <house>5/1</house>
+         <appartment>89</appartment>
+      </homeAddress>
+   </user>
+   <user>
+      <name>Данилов Данил Данилович</name>
+      <birthday>1992-04-21</birthday>
+      <registrationDate>2021-07-17</registrationDate>
+      <login>u700YT</login>
+      <password>JuI9R5Pc4D</password>
+      <homeAddress>
+         <city>Казань</city>
+         <street>Спортивная</street>
+         <house>5/1</house>
+         <appartment>94</appartment>
+      </homeAddress>
+   </user>
+   <user>
+      <name>Олегов Олег Олегович</name>
+      <birthday>1992-07-28</birthday>
+      <registrationDate>2021-07-17</registrationDate>
+      <login>H7jExf</login>
+      <password>eBvoib2b26</password>
+      <homeAddress>
+         <city>Воронеж</city>
+         <street>Чернышевского</street>
+         <house>3</house>
+         <appartment>42</appartment>
+      </homeAddress>
+   </user>
+</users>

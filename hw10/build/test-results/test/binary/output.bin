@@ -1,0 +1,72 @@
+<user>
+=   <name>Данилов Данил Данилович</name>
+#   <birthday>2020-08-05</birthday>
+3   <registrationDate>2021-07-17</registrationDate>
+   <login>1O9L4f</login>
+#   <password>oayKZ4RVs0</password>
+   <homeAddress>
+1      <city>Санкт-Петербург</city>
+,      <street>Спортивная</street>
+      <house>5/1</house>
+"      <appartment>69</appartment>
+   </homeAddress>
+</user>
+<users>
+
+   <user>
+@      <name>Сидоров Сидор Сидорович</name>
+&      <birthday>1953-12-31</birthday>
+6      <registrationDate>2021-07-17</registrationDate>
+      <login>cOzW4r</login>
+&      <password>v2aQ3nCq2g</password>
+      <homeAddress>
+#         <city>Москва</city>
+'         <street>Ленина</street>
+         <house>3</house>
+%         <appartment>79</appartment>
+      </homeAddress>
+   </user>
+
+   <user>
+:      <name>Петров Петр Петрович</name>
+&      <birthday>1996-05-30</birthday>
+6      <registrationDate>2021-07-17</registrationDate>
+      <login>XaMriu</login>
+&      <password>7AP5DWsHUI</password>
+      <homeAddress>
+4         <city>Санкт-Петербург</city>
+5         <street>Чистопольская</street>
+         <house>5/1</house>
+%         <appartment>89</appartment>
+      </homeAddress>
+   </user>
+
+   <user>
+@      <name>Данилов Данил Данилович</name>
+&      <birthday>1992-04-21</birthday>
+6      <registrationDate>2021-07-17</registrationDate>
+      <login>u700YT</login>
+&      <password>JuI9R5Pc4D</password>
+      <homeAddress>
+#         <city>Казань</city>
+/         <street>Спортивная</street>
+         <house>5/1</house>
+%         <appartment>94</appartment>
+      </homeAddress>
+   </user>
+
+   <user>
+:      <name>Олегов Олег Олегович</name>
+&      <birthday>1992-07-28</birthday>
+6      <registrationDate>2021-07-17</registrationDate>
+      <login>H7jExf</login>
+&      <password>eBvoib2b26</password>
+      <homeAddress>
+%         <city>Воронеж</city>
+5         <street>Чернышевского</street>
+         <house>3</house>
+%         <appartment>42</appartment>
+      </homeAddress>
+   </user>
+	</users>
+�{"users":[{"birthday":"2010-10-01","homeAddress":{"appartment":69,"city":"Иннополис","house":"2A","street":"Пушкина"},"login":"eCVJZz","name":"Александров Александр Александрович","password":"aBVdg265hx","registrationDate":"2021-07-17"},{"birthday":"1981-06-01","homeAddress":{"appartment":3,"city":"Казань","house":"6","street":"Университетская"},"login":"d1iAHt","name":"Антонов Антон Антонович","password":"vo2u2SN6t6","registrationDate":"2021-07-17"},{"birthday":"1995-05-02","homeAddress":{"appartment":82,"city":"Уфа","house":"7","street":"Чистопольская"},"login":"kKHkjV","name":"Антонов Антон Антонович","password":"rChHtJqxEA","registrationDate":"2021-07-17"},{"birthday":"1981-02-28","homeAddress":{"appartment":32,"city":"Санкт-Петербург","house":"5/1","street":"Университетская"},"login":"uQVeAg","name":"Сидоров Сидор Сидорович","password":"nPxTY2OhQN","registrationDate":"2021-07-17"}]}
