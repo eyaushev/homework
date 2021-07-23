@@ -36,7 +36,7 @@ public class PetTest {
         Response response = controller.addNew(pet);
         Pet responsePet = response.getBody().as(Pet.class);
         Assertions.assertEquals(200, response.statusCode());
-        Assertions.assertEquals(responsePet.toString(), pet.toString());
+        Assertions.assertEquals(responsePet, pet);
     }
 
     @Test
@@ -62,7 +62,7 @@ public class PetTest {
         Response response = controller.updatePet(pet);
         Pet responsePet = response.getBody().as(Pet.class);
         Assertions.assertEquals(200, response.statusCode());
-        Assertions.assertEquals(responsePet.toString(), pet.toString());
+        Assertions.assertEquals(responsePet, pet);
     }
 
     @Test
@@ -94,7 +94,7 @@ public class PetTest {
         Response response = controller.findById(pet.getId());
         Pet responsePet = response.getBody().as(Pet.class);
         Assertions.assertEquals(200, response.statusCode());
-        Assertions.assertEquals(responsePet.toString(), pet.toString());
+        Assertions.assertEquals(responsePet, pet);
     }
 
     @Test

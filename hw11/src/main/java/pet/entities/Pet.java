@@ -1,6 +1,7 @@
 package pet.entities;
 import java.io.Serializable;
 import java.util.Arrays;
+import java.util.Objects;
 
 
 public class Pet implements Serializable {
@@ -69,5 +70,21 @@ public class Pet implements Serializable {
                 ", tags=" + Arrays.toString(tags) +
                 ", status=" + status +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Pet)) return false;
+        Pet pet = (Pet) o;
+        return id == pet.id && Objects.equals(category, pet.category) && Objects.equals(name, pet.name) && Arrays.equals(photoUrls, pet.photoUrls) && Arrays.equals(tags, pet.tags) && status == pet.status;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(id, category, name, status);
+        result = 31 * result + Arrays.hashCode(photoUrls);
+        result = 31 * result + Arrays.hashCode(tags);
+        return result;
     }
 }
