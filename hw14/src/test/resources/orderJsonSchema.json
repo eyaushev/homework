@@ -1,0 +1,26 @@
+{
+  "title": "Order JSON Schema",
+  "type": "object",
+  "required": ["id", "petId", "quantity", "shipDate", "status", "complete"],
+  "minProperties": 6,
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "petId": {
+      "type": "integer"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "shipDate": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "complete": {
+      "type": "boolean"
+    }
+  }
+}
